@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Snowdare",
+    "description": "Snowdare extension for external assets",
+    "author": "Snowdare",
+    "version": "0.1",
+    "background": {
+      "service_worker": "bg.js"
+    },
+    "action": {},
+    "permissions": [
+      "storage",
+      "downloads",
+      "tabs"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "options_page": "options.html"
+}
